@@ -1,0 +1,6 @@
+# Large datasets
+*.csv
+
+# o solo el dataset
+MonopolySimulator-master/monopoly_dataset.csv
+src/MonopolySimulator-master/monopoly_dataset.csv
