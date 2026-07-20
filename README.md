@@ -2,15 +2,11 @@
 
 Proyecto de Analítica de Datos y Aprendizaje Automático enfocado en el estudio del comportamiento de los jugadores de Monopoly mediante simulaciones a gran escala.
 
----
-
 # Descripción
 
 Este proyecto tiene como objetivo analizar miles de partidas simuladas de Monopoly para identificar patrones de juego, estudiar el impacto de diferentes estrategias económicas y construir un modelo de Machine Learning capaz de predecir si un jugador perderá la partida.
 
 Para ello, se utilizó un simulador desarrollado en Python que fue modificado para registrar el estado financiero y estratégico de cada jugador en cada turno. Posteriormente, los datos fueron procesados y analizados utilizando Databricks, PySpark, SQL y Scikit-learn.
-
----
 
 # Objetivos
 
@@ -20,8 +16,6 @@ Para ello, se utilizó un simulador desarrollado en Python que fue modificado pa
 - Analizar la evolución económica durante las partidas.
 - Construir un modelo predictivo utilizando Random Forest.
 - Visualizar los resultados mediante un dashboard interactivo.
-
----
 
 # Tecnologías utilizadas
 
@@ -34,8 +28,6 @@ Para ello, se utilizó un simulador desarrollado en Python que fue modificado pa
 - Scikit-learn
 - Git
 - GitHub
-
----
 
 # Conjunto de datos
 
@@ -61,7 +53,6 @@ Cada fila del conjunto de datos representa el estado de un jugador durante un tu
 | bank_cash | Dinero restante del banco |
 | has_lost | Variable objetivo que indica si el jugador perdió la partida |
 
----
 
 # Análisis Exploratorio de Datos (EDA)
 
@@ -77,8 +68,6 @@ Se analizaron aspectos como:
 - Características de los jugadores con mejor desempeño.
 - Evolución del patrimonio a lo largo de la partida.
 
----
-
 # Análisis mediante SQL
 
 Se realizaron consultas analíticas utilizando SQL en Databricks para obtener indicadores relevantes sobre el comportamiento de las partidas.
@@ -90,8 +79,6 @@ Entre los análisis realizados se incluyen:
 - Rankings.
 - Indicadores de rendimiento.
 - Consultas comparativas entre jugadores.
-
----
 
 # Modelo de Machine Learning
 
@@ -115,9 +102,7 @@ Se desarrolló un modelo de clasificación utilizando **Random Forest** para pre
 - Random Forest Classifier
 - Biblioteca: Scikit-learn
 - Tipo de problema: Clasificación Binaria
-
----
-
+- 
 # Dashboard
 
 Como resultado final se construyó un dashboard interactivo en Databricks que resume los principales hallazgos del proyecto.
@@ -131,8 +116,6 @@ Incluye:
 - Importancia de variables del modelo
 - Resultados del modelo predictivo
 
----
-
 # Resultados principales
 
 Los análisis permitieron identificar que:
@@ -141,8 +124,6 @@ Los análisis permitieron identificar que:
 - Existe una fuerte relación entre la cantidad de propiedades y la riqueza del jugador.
 - Algunas casillas presentan frecuencias de visita considerablemente mayores.
 - El modelo Random Forest identifica correctamente las variables con mayor influencia sobre la probabilidad de perder una partida.
-
----
 
 # Trabajo futuro
 
@@ -155,16 +136,12 @@ Como posibles extensiones del proyecto se plantean:
 - Simular partidas con más de dos jugadores.
 - Desarrollar modelos de series temporales para estudiar la evolución del patrimonio.
 
----
-
 # Referencias
 
 - Reglas oficiales de Monopoly (Hasbro)
 - Documentación de Databricks
 - Documentación de Apache Spark
 - Documentación de Scikit-learn
-
----
 
 # Autor
 
